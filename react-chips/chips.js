@@ -18,24 +18,27 @@ const Chips = (props) => {
 
 const styles = StyleSheet.create({
     chip: {
-        borderColor: '#848787',
-        borderWidth: 1,
+        backgroundColor: '#EFEFF4',
+        // borderColor: '#848787',
+        // borderWidth: 1,
         margin: 4,
-        paddingVertical: 5,
-        paddingHorizontal: 5,
-        borderRadius: 15
+        paddingVertical: 10,
+        paddingHorizontal: 10,
+        borderRadius: 5
     },
     chipCloseBtn: {
-        borderRadius: 8,
-        width: 16,
-        height: 16,
-        backgroundColor: '#ddd',
+        borderRadius: 20/2,
+        width: 20,
+        height: 20,
+        backgroundColor: '#979797',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        paddingBottom: 'auto',
+        paddingTop: 'auto'
     },
     chipCloseBtnTxt: {
-        color: '#555',
-        paddingBottom: 3
+        color: '#EFEFF4',
+        marginBottom: 2,
     }
 })
 
