@@ -1,6 +1,3 @@
-/**
- * @author Ramprasath R <ramprasath25@gmail.com>
- */
 import React from 'react';
 import { View, Text, TextInput, StyleSheet, Alert } from 'react-native';
 import Chips from './chips';
@@ -65,7 +62,8 @@ class ReactChipsInput extends React.Component {
         ));
         return (
             <View>
-                <View style={{ paddingTop: 18, marginTop: 15 }}>
+            {/*
+            <View style={{ paddingTop: 18, marginTop: 15 }}>
                     <Text style={labelStyle}>
                         {inputLabel}
                     </Text>
@@ -77,6 +75,8 @@ class ReactChipsInput extends React.Component {
                         value={inputText}
                     />
                 </View>
+            */}
+                
                 <View style={{ flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center' }}>
                     {chips}
                 </View>
